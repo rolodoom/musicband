@@ -1,5 +1,5 @@
 // Styling for the portfolio section
-#portfolio {
+.portfolio {
     .portfolio-item {
         max-width: 25rem;
         margin-left: auto;
@@ -87,4 +87,10 @@
             opacity: 0.3;
         }
     }
+}
+
+
+
+.section-gallery{
+    padding:0;
 }

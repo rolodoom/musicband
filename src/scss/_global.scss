@@ -23,6 +23,7 @@ p {
     }
 }
 
+
 @include media-breakpoint-up(md) {
     section {
         padding: 9rem 0;
@@ -47,4 +48,12 @@ img::selection {
 
 img::-moz-selection {
     background: transparent;
+}
+
+
+.bg-dark{
+    color:white;
+    .text-muted{
+        color:$gray-100;
+    }
 }

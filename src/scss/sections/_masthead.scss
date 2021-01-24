@@ -1,7 +1,11 @@
 // Styling for the masthead
 header.masthead {
-    padding-top: 6rem + 4.5rem;
-    padding-bottom: 6rem;
+    // padding-top: 6rem + 4.5rem;
+    // padding-bottom: 6rem;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     color: $white;
     background-image: url("../assets/img/header-bg.jpg");
@@ -27,8 +31,9 @@ header.masthead {
 
 @include media-breakpoint-up(md) {
     header.masthead {
-        padding-top: 12.5rem + 4.5rem;
-        padding-bottom: 12.5rem;
+        // padding-top: 12.5rem + 4.5rem;
+        // padding-bottom: 12.5rem;
+        
         .masthead-subheading {
             font-size: 2.25rem;
             font-style: italic;
