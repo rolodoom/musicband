@@ -14,10 +14,6 @@
 [![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency)
 [![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency?type=dev)
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
-[![dependencies Status](https://david-dm.org/rolodoom/musicband/status.svg)](https://david-dm.org/rolodoom/musicband)
-[![devDependencies Status](https://david-dm.org/rolodoom/musicband/dev-status.svg)](https://david-dm.org/rolodoom/musicband?type=dev)
-
 ## Download and Installation
 
 To begin using this template, choose one of the following options to get started:
