@@ -54,6 +54,11 @@ img::-moz-selection {
 .bg-dark{
     color:white;
     .text-muted{
-        color:$gray-100;
+        color:$dark;
     }
+}
+
+.parallax-window {
+	min-height: 400px;
+	background: transparent;
 }
