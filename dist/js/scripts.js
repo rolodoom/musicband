@@ -53,4 +53,10 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+
+    // Parallax
+    $(window).trigger('resize').trigger('scroll');
+
+
 })(jQuery); // End of use strict
