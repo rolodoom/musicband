@@ -12,5 +12,6 @@
 * CD Cover Designs made on [Canva](https://canva.com).
 * Here is the [list of images](src/IMAGES.md) used in this template.
 
-## License
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
+## Status
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE) [![dependencies Status](https://david-dm.org/rolodoom/musicband/status.svg)](https://david-dm.org/rolodoom/musicband)
+[![devDependencies Status](https://david-dm.org/rolodoom/musicband/dev-status.svg)](https://david-dm.org/rolodoom/musicband?type=dev)
