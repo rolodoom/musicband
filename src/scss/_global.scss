@@ -8,6 +8,7 @@ p {
 }
 
 .page-section {
+    position: relative;
     padding: 6rem 0;
     h2.section-heading {
         font-size: 2.5rem;
@@ -51,14 +52,15 @@ img::-moz-selection {
 }
 
 
-.bg-dark{
+.section-dark{
     color:white;
-    .text-muted{
-        color:$dark;
-    }
 }
 
 .parallax-window {
-	min-height: 400px;
-	background: transparent;
+	// min-height: 400px;
+    background: transparent;
+}
+
+.filter-dark{
+    background-color: rgba(0,0,0,0.5);
 }

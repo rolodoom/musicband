@@ -50,23 +50,25 @@ html(lang='en')
                             a.nav-link.js-scroll-trigger(href='#gallery') Gallery
                         li.nav-item
                             a.nav-link.js-scroll-trigger(href='#contact') Contact
+        
         // Masthead
-        header.masthead.parallax-window(data-parallax="scroll", data-image-src="https://picsum.photos/id/1082/1280/720")
-            .container
-                .masthead-subheading Welcome!
-                .masthead-heading.text-uppercase It's Nice To Meet You
-                a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#videos') 
-                    i.fas.fa-angle-double-down
-                    | Continuar  
-                    i.fas.fa-angle-double-down
-                    
+        .parallax-window(data-parallax="scroll", data-image-src="https://picsum.photos/id/1082/1280/720")
+            .filter-dark
+                header.masthead.section-dark
+                    .container
+                        .masthead-subheading Welcome!
+                        .masthead-heading.text-uppercase It's Nice To Meet You
+                        a.btn.btn-primary.btn-xl.text-uppercase.js-scroll-trigger(href='#videos') 
+                            i.fas.fa-angle-double-down
+                            | Continuar  
+                            i.fas.fa-angle-double-down
 
         // Videos
         section#videos.videos.page-section
             .container
                 .text-center
                     h2.section-heading.text-uppercase Videos
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading Lorem ipsum dolor sit amet consectetur.
                 .row
                     .col-lg-6.col-sm-6
                         .video-item
@@ -90,11 +92,11 @@ html(lang='en')
                                 .video-caption-subheading.text-muted Subtitle
 
         // Music
-        section#music.portfolio.page-section.bg-dark
+        section#music.portfolio.page-section.bg-dark.section-dark
             .container
                 .text-center
                     h2.section-heading.text-uppercase Music
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading Lorem ipsum dolor sit amet consectetur.
                 .row
                     .col-lg-3.col-sm-6.mb-4
                         .portfolio-item
@@ -152,11 +154,11 @@ html(lang='en')
                                 img.img-fluid.d-block.mx-auto(src='assets/img/logos/bandcamp.svg', alt='')  
 
         // About
-        section#about.page-section
+        section#about.page-section.parallax-window(data-parallax="scroll", data-image-src="")
             .container
                 .text-center
                     h2.section-heading.text-uppercase About
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading Lorem ipsum dolor sit amet consectetur.
                 ul.timeline
                     li
                         .timeline-image
@@ -208,11 +210,11 @@ html(lang='en')
                                 | Story!
 
         // Members
-        section#members.page-section.bg-dark
+        section#members.page-section.bg-dark.section-dark
             .container
                 .text-center
                     h2.section-heading.text-uppercase Members
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
+                    h3.section-subheading Lorem ipsum dolor sit amet consectetur.
                 .row
                     .col-lg-4
                         .team-member
@@ -251,7 +253,6 @@ html(lang='en')
                 //-     .col-lg-8.mx-auto.text-center
                 //-         p.large.text-muted
                 //-             | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.
-
 
         // Gallery
         section#gallery.portfolio.page-section.section-gallery
@@ -340,47 +341,48 @@ html(lang='en')
                                 .portfolio-hover-content
                                     i.fas.fa-plus.fa-3x
                             img.img-fluid(src='https://picsum.photos/id/155/600/600.jpg', alt='')
-
         
         // Contact
-        section#contact.page-section.parallax-window(data-parallax="scroll", data-image-src="https://picsum.photos/id/122/1920/1080?blur&random=1")
-            .container
-                .text-center
-                    h2.section-heading.text-uppercase Contact Us
-                    h3.section-subheading.text-muted Lorem ipsum dolor sit amet consectetur.
-                //- form#contactForm(name='sentMessage', novalidate='novalidate')
-                //-     .row.align-items-stretch.mb-5
-                //-         .col-md-6
-                //-             .form-group
-                //-                 input#name.form-control(type='text', placeholder='Your Name *', required='required', data-validation-required-message='Please enter your name.')
-                //-                 p.help-block.text-danger
-                //-             .form-group
-                //-                 input#email.form-control(type='email', placeholder='Your Email *', required='required', data-validation-required-message='Please enter your email address.')
-                //-                 p.help-block.text-danger
-                //-             .form-group.mb-md-0
-                //-                 input#phone.form-control(type='tel', placeholder='Your Phone *', required='required', data-validation-required-message='Please enter your phone number.')
-                //-                 p.help-block.text-danger
-                //-         .col-md-6
-                //-             .form-group.form-group-textarea.mb-md-0
-                //-                 textarea#message.form-control(placeholder='Your Message *', required='required', data-validation-required-message='Please enter a message.')
-                //-                 p.help-block.text-danger
-                //-     .text-center
-                //-             #success
-                //-             button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
+        .parallax-window(data-parallax="scroll", data-image-src="https://picsum.photos/id/1001/1920/1080")
+            .filter-dark
+                section#contact.page-section.section-dark
+                    .container
+                        .text-center
+                            h2.section-heading.text-uppercase Contact Us
+                            h3.section-subheading Lorem ipsum dolor sit amet consectetur.
+                        //- form#contactForm(name='sentMessage', novalidate='novalidate')
+                        //-     .row.align-items-stretch.mb-5
+                        //-         .col-md-6
+                        //-             .form-group
+                        //-                 input#name.form-control(type='text', placeholder='Your Name *', required='required', data-validation-required-message='Please enter your name.')
+                        //-                 p.help-block.text-danger
+                        //-             .form-group
+                        //-                 input#email.form-control(type='email', placeholder='Your Email *', required='required', data-validation-required-message='Please enter your email address.')
+                        //-                 p.help-block.text-danger
+                        //-             .form-group.mb-md-0
+                        //-                 input#phone.form-control(type='tel', placeholder='Your Phone *', required='required', data-validation-required-message='Please enter your phone number.')
+                        //-                 p.help-block.text-danger
+                        //-         .col-md-6
+                        //-             .form-group.form-group-textarea.mb-md-0
+                        //-                 textarea#message.form-control(placeholder='Your Message *', required='required', data-validation-required-message='Please enter a message.')
+                        //-                 p.help-block.text-danger
+                        //-     .text-center
+                        //-             #success
+                        //-             button#sendMessageButton.btn.btn-primary.btn-xl.text-uppercase(type='submit') Send Message
 
-                .row.align-items-center
-                    .col-lg-12.text-center
-                        a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
-                            i.fab.fa-instagram.fa-2x
-                        a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
-                            i.fab.fa-youtube.fa-2x
-                        a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
-                            i.fab.fa-facebook-f.fa-2x
-                        a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
-                            i.fab.fa-twitter.fa-2x
+                        .row.align-items-center
+                            .col-lg-12.text-center
+                                a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
+                                    i.fab.fa-instagram.fa-2x
+                                a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
+                                    i.fab.fa-youtube.fa-2x
+                                a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
+                                    i.fab.fa-facebook-f.fa-2x
+                                a.btn.btn-dark.btn-social-contact.mx-2(href='#!')
+                                    i.fab.fa-twitter.fa-2x
 
         // Footer
-        footer.footer.py-4.bg-dark
+        footer.footer.py-4.bg-dark.section-dark
             .container
                 .row.align-items-center
                     .col-lg-4.text-lg-left
@@ -465,8 +467,6 @@ html(lang='en')
                                     button.btn.btn-primary(data-dismiss='modal', type='button')
                                         i.fas.fa-times.mr-1
                                         | Cerrar
-
-
         // Modal 4
         #portfolioModal4.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
             .modal-dialog

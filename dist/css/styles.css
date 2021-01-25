@@ -9986,6 +9986,7 @@ p {
 }
 
 .page-section {
+  position: relative;
   padding: 6rem 0;
 }
 .page-section h2.section-heading {
@@ -10028,16 +10029,16 @@ img::-moz-selection {
   background: transparent;
 }
 
-.bg-dark {
+.section-dark {
   color: white;
-}
-.bg-dark .text-muted {
-  color: #111;
 }
 
 .parallax-window {
-  min-height: 400px;
   background: transparent;
+}
+
+.filter-dark {
+  background-color: rgba(0, 0, 0, 0.5);
 }
 
 .btn-xl {
@@ -10171,7 +10172,6 @@ header.masthead {
   justify-content: center;
   align-items: center;
   text-align: center;
-  color: #fff;
 }
 header.masthead .masthead-subheading {
   font-size: 1.5rem;
@@ -10531,9 +10531,6 @@ header.masthead .masthead-heading {
   margin-bottom: 0;
 }
 
-section#contact .section-heading {
-  color: #fff;
-}
 section#contact form#contactForm .form-group {
   margin-bottom: 1.5rem;
 }
