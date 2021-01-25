@@ -10,9 +10,7 @@
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/StartBootstrap/startbootstrap-agency/master/LICENSE)
-[![dependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency)
-[![devDependencies Status](https://david-dm.org/StartBootstrap/startbootstrap-agency/dev-status.svg)](https://david-dm.org/StartBootstrap/startbootstrap-agency?type=dev)
+[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
 
 ## Download and Installation
 
