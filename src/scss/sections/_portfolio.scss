@@ -32,16 +32,16 @@
         .portfolio-caption {
             padding: 1.5rem;
             text-align: center;
-            background-color: $white;
+            color: $white;
             .portfolio-caption-heading {
                 font-size: 1.5rem;
                 font-family: $headings-font-family;
-                font-weight: $headings-font-weight;
+                // font-weight: $headings-font-weight;
                 margin-bottom: 0;
             }
             .portfolio-caption-subheading {
                 font-style: italic;
-                font-family: $subheadings-font-family;
+                // font-family: $subheadings-font-family;
             }
         }
     }
@@ -91,8 +91,14 @@
     }
 }
 
-
-
 .section-gallery{
     padding:0;
+}
+
+.streaming-service{
+    opacity: 0.4;
+    transition: all 0.5s ease-out;
+    &:hover{
+        opacity: 1;
+    }
 }

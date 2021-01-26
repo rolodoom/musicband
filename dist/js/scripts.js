@@ -1,7 +1,7 @@
 /*!
-    * Start Bootstrap - Agency v6.0.3 (https://startbootstrap.com/theme/agency)
-    * Copyright 2013-2021 Start Bootstrap
-    * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+    * Start Bootstrap - MusicBand v1.0.3 (https://github.com/rolodoom/musicband)
+    * Copyright 2013-2021 Rolodoom
+    * Licensed under MIT (https://github.com/StartBootstrap/musicband/blob/master/LICENSE)
     */
     (function ($) {
     "use strict"; // Start of use strict
