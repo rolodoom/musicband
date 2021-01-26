@@ -1,6 +1,6 @@
-# [MusicBand](https://startbootstrap.com/theme/agency)
+# MusicBand
 
-[MusicBand](https://startbootstrap.com/theme/agency) is a one page, musician page theme built with [Bootstrap](https://getbootstrap.com/) and forked from [Agency](https://startbootstrap.com/theme/agency) created by [Start Bootstrap](https://startbootstrap.com/). 
+[MusicBand](https://github.com/rolodoom/musicband) is a one page, musician page theme built with [Bootstrap](https://getbootstrap.com/) and forked from [Agency](https://startbootstrap.com/theme/agency) by [Start Bootstrap](https://startbootstrap.com/). 
 
 ## Status
 [![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE) [![dependencies Status](https://david-dm.org/rolodoom/musicband/status.svg)](https://david-dm.org/rolodoom/musicband)
@@ -8,7 +8,7 @@
 
 ## Preview
 
-![MusicBand Preview](src/screenshots/screenshot-1.jpg)
+![MusicBand Preview](src/screenshots/screenshot.jpg)
 
 ## About
 
