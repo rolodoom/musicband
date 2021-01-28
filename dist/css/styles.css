@@ -11284,8 +11284,9 @@ header.masthead .masthead-heading {
 .portfolio-modal .modal-content ul.list-inline {
   margin-bottom: 2rem;
 }
-.portfolio-modal .modal-content img {
+.portfolio-modal .modal-content .img-cover {
   margin-bottom: 2rem;
+  border: 1px solid #111;
 }
 .portfolio-modal .close-modal {
   position: absolute;
