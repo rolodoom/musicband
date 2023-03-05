@@ -1,0 +1,22 @@
+// Navigation
+nav#mainNav.navbar.navbar-expand-lg.navbar-dark.fixed-top
+    .container
+        a.navbar-brand(href='#page-top')
+            img(src='assets/img/navbar-logo.svg', alt='...')
+        button.navbar-toggler(type='button', data-bs-toggle='collapse', data-bs-target='#navbarResponsive', aria-controls='navbarResponsive', aria-expanded='false', aria-label='Toggle navigation')
+            | Menu
+            i.fas.fa-bars.ms-1
+        #navbarResponsive.collapse.navbar-collapse
+            ul.navbar-nav.text-uppercase.ms-auto.py-4.py-lg-0
+                li.nav-item
+                    a.nav-link.js-scroll-trigger(href='#videos') Videos
+                li.nav-item
+                    a.nav-link.js-scroll-trigger(href='#releases') Releases
+                li.nav-item
+                    a.nav-link.js-scroll-trigger(href='#bio') Bio
+                li.nav-item
+                    a.nav-link.js-scroll-trigger(href='#musicians') Musicians
+                li.nav-item
+                    a.nav-link.js-scroll-trigger(href='#gallery') Gallery
+                li.nav-item
+                    a.nav-link.js-scroll-trigger(href='#contact') Contact

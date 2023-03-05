@@ -1,0 +1,25 @@
+// Release Modal 1
+#musicianModal1.portfolio-modal.modal.fade(tabindex='-1', role='dialog', aria-hidden='true')
+    .modal-dialog
+        .modal-content
+            .close-modal(data-bs-dismiss='modal')
+                img(src="assets/img/close-icon.svg", alt='Close modal')
+            .container
+                .row.justify-content-center
+                    .col-lg-8
+                        .modal-body
+                            // Project Details Go Here
+                            h2.text-uppercase Kay Garland
+                            p.item-intro.text-muted Vocals / Guitar
+                            .row
+                                .col-md-4
+                                    img.img-fluid.d-block.mx-auto.img-cover(src='assets/img/musicians/1.jpg', alt='')
+                                .col-md-8
+                                    p.lead.mb-1
+                                        | Use this area to describe your release.
+                                    p
+                                        | Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!
+                                    
+                                    button.btn.btn-primary(data-bs-dismiss='modal', type='button')
+                                        i.fas.fa-times.mr-1
+                                        | Cerrar

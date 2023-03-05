@@ -7,9 +7,10 @@ header.masthead {
     padding-bottom: 6rem;
     text-align: center;
     color: $white;
-    background-image: url("../assets/img/header-bg.jpg");
+    background-image: linear-gradient(rgba($black, 0.5), rgba($black, 0.5)),
+        url("../assets/img/masthead/header-bg.jpg");
     background-repeat: no-repeat;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center center;
     background-size: cover;
 
