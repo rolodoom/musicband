@@ -1,7 +1,7 @@
 {
-    "title": "Agency",
-    "name": "startbootstrap-agency",
-    "version": "7.0.11",
+    "title": "MusicBand",
+    "name": "musicband",
+    "version": "1.0.0",
     "scripts": {
         "build": "npm run clean && npm run build:pug && npm run build:scss && npm run build:scripts && npm run build:assets",
         "build:assets": "node scripts/build-assets.js",
@@ -12,7 +12,7 @@
         "start": "npm run build && node scripts/start.js",
         "start:debug": "npm run build && node scripts/start-debug.js"
     },
-    "description": "Agency is a one page HTML theme for Bootstrap.",
+    "description": " A one page HTML theme for music bands forked from Agency by Start Bootstrap.",
     "keywords": [
         "css",
         "sass",
@@ -21,19 +21,14 @@
         "theme",
         "template"
     ],
-    "homepage": "https://startbootstrap.com/theme/agency",
     "bugs": {
-        "url": "https://github.com/StartBootstrap/startbootstrap-agency/issues",
-        "email": "feedback@startbootstrap.com"
+        "url": "https://github.com/rolodoom/musicband/issues"
     },
     "license": "MIT",
-    "author": "Start Bootstrap",
-    "contributors": [
-        "David Miller (https://davidmiller.io/)"
-    ],
+    "author": "rolodoom",
     "repository": {
         "type": "git",
-        "url": "https://github.com/StartBootstrap/startbootstrap-agency.git"
+        "url": "https://github.com/rolodoom/musicband.git"
     },
     "dependencies": {
         "bootstrap": "5.1.3"
