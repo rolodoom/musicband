@@ -1,8 +1,8 @@
 @charset "UTF-8";
 /*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+* Start Bootstrap - MusicBand v1.0.0 (undefined)
+* Copyright 2013-2023 rolodoom
+* Licensed under MIT (https://github.com/StartBootstrap/musicband/blob/master/LICENSE)
 */
 /*!
  * Bootstrap v5.1.3 (https://getbootstrap.com/)
@@ -11437,8 +11437,10 @@ p {
   }
 }
 header.masthead {
-  padding-top: 10.5rem;
-  padding-bottom: 6rem;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
   color: #fff;
   background-image: linear-gradient(rgba(1, 22, 30, 0.5), rgba(1, 22, 30, 0.5)), url("../assets/img/masthead/header-bg.jpg");
@@ -11528,6 +11530,9 @@ header.masthead .masthead-heading {
 .videos .video-item .video-caption .video-caption-date {
   font-size: 1rem;
   font-family: "Roboto Slab", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+.videos .videos-secondary .video-item .video-caption .video-caption-heading {
+  font-size: 1.15rem;
 }
 
 .video-responsive {
@@ -11820,30 +11825,41 @@ header.masthead .masthead-heading {
   margin-top: 1.5rem;
   margin-bottom: 0;
 }
-.musician .avatar:link, .musician .avatar:visited {
+.musician .musician-item {
+  max-width: 25rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+.musician .musician-item .musician-image {
+  width: 100% !important;
+}
+.musician .musician-item .musician-link {
+  position: relative;
   display: block;
-  transition: all 0.3s ease;
+  margin: 0 auto;
 }
-.musician .avatar:hover, .musician .avatar:active {
-  transform: scale(1.05);
+.musician .musician-item .musician-link .musician-hover {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: none;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity ease-in-out 0.25s;
 }
-
-.team-member {
-  margin-bottom: 3rem;
-  text-align: center;
+.musician .musician-item .musician-link .musician-hover .musician-hover-content {
+  font-size: 1.25rem;
+  color: #337357;
+  transition: all ease-in-out 0.25s;
 }
-.team-member img {
-  width: 14rem;
-  height: 14rem;
-  border: 0.5rem solid rgba(1, 22, 30, 0.1);
+.musician .musician-item .musician-link:hover .musician-hover {
+  opacity: 1;
+  background: rgba(51, 115, 87, 0.9);
 }
-.team-member h4, .team-member .h4 {
-  margin-top: 1.5rem;
-  margin-bottom: 0;
-}
-
-.img-brand {
-  height: 2.75rem;
+.musician .musician-item .musician-link:hover .musician-hover .musician-hover-content {
+  color: #fff;
 }
 
 section#contact {

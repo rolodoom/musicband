@@ -1,7 +1,7 @@
 /*!
-* Start Bootstrap - Agency v7.0.11 (https://startbootstrap.com/theme/agency)
-* Copyright 2013-2023 Start Bootstrap
-* Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-agency/blob/master/LICENSE)
+* Start Bootstrap - MusicBand v1.0.0 (undefined)
+* Copyright 2013-2023 rolodoom
+* Licensed under MIT (https://github.com/StartBootstrap/musicband/blob/master/LICENSE)
 */
 //
 // Scripts
