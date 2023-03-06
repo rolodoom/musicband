@@ -4,7 +4,9 @@
 
 ## Preview
 
-![MusicBand Preview](src/screenshots/screenshot.jpg)
+[![MusicBand Preview](src/screenshots/screenshot.jpg)](https://musicband-rolodoom.netlify.app/)
+
+**[View Live Preview](https://musicband-rolodoom.netlify.app/)**
 
 ## Status
 
