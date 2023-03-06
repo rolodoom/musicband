@@ -4,7 +4,7 @@
 
 ## Preview
 
-![MusicBand Preview](src/screenshots/screenshot.png)
+![MusicBand Preview](src/screenshots/screenshot.jpg)
 
 ## Status
 
