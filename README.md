@@ -10,7 +10,7 @@
 
 ## Status
 
-[![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
+[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
 
 ## Usage
 
@@ -48,4 +48,4 @@ Have a bug or an issue with this template? [Open a new issue](https://github.com
 
 ## License
 
-Code released under the [MIT](https://github.com/rolodoom/musicband/blob/master/LICENSE) license.
+This code is released under the [GPL-3.0](https://github.com/rolodoom/musicband/blob/master/LICENSE) license, which means you have the four freedoms to run, study, share, and modify the software. Any derivative work must be distributed under the same or equivalent license terms.
