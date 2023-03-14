@@ -11762,6 +11762,7 @@ header.masthead .masthead-heading {
 }
 .timeline .timeline-heading h4.subheading, .timeline .timeline-heading .subheading.h4 {
   text-transform: none;
+  font-weight: 300;
 }
 .timeline .timeline-body > ul,
 .timeline .timeline-body > p {
