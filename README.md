@@ -2,15 +2,16 @@
 
 [MusicBand](https://github.com/rolodoom/musicband) is a one page, musician page theme built with [Bootstrap](https://getbootstrap.com/) and forked from [Agency](https://startbootstrap.com/theme/agency) by [Start Bootstrap](https://startbootstrap.com/).
 
+## Status
+
+[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/0b135b49-5520-4e6b-87ac-9f0ddf7721b9/deploy-status)](https://app.netlify.com/sites/musicband-rolodoom/deploys)
+
 ## Preview
 
 [![MusicBand Preview](src/screenshots/screenshot.jpg)](https://musicband-rolodoom.netlify.app/)
 
 **[View Live Preview](https://musicband-rolodoom.netlify.app/)**
-
-## Status
-
-[![GitHub license](https://img.shields.io/badge/license-GPL--3.0-blue)](https://raw.githubusercontent.com/rolodoom/musicband/master/LICENSE)
 
 ## Usage
 
