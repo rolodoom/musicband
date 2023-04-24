@@ -22,7 +22,7 @@
         width: 2px;
         margin-left: -1.5px;
         content: "";
-        background-color: $gray-300;
+        background-color: rgba($dark, 0.5);
     }
 
     > li {
@@ -71,7 +71,7 @@
             margin-left: 0;
             text-align: center;
             color: white;
-            border: 7px solid $gray-300;
+            border: 7px solid rgba($dark, 0.35);
             border-radius: 100%;
             background-color: $primary;
 

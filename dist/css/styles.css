@@ -11685,7 +11685,7 @@ header.masthead .masthead-heading {
   width: 2px;
   margin-left: -1.5px;
   content: "";
-  background-color: #dee2e6;
+  background-color: rgba(1, 22, 30, 0.5);
 }
 .timeline > li {
   position: relative;
@@ -11727,7 +11727,7 @@ header.masthead .masthead-heading {
   margin-left: 0;
   text-align: center;
   color: white;
-  border: 7px solid #dee2e6;
+  border: 7px solid rgba(1, 22, 30, 0.35);
   border-radius: 100%;
   background-color: #337357;
 }
